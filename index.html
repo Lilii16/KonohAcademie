@@ -96,9 +96,12 @@
         </div>
         <div class="pictures">
           <div class="title2">
-            <h2 id="photos">Galerie</h2>
+            <div class="galerie">
+              <h2 id="photos">Galerie</h2>
+              <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+            </div>
           </div>
-          <div class="linephoto">
+          <!-- <div class="linephoto">
             <img src="pictures/1galerie.jpg" />
             <img src="pictures/2galerie.jpg" />
             <img src="pictures/3galerie.jpg" />
@@ -109,10 +112,51 @@
             <img src="pictures/6galerie.jpg" />
             <img src="pictures/7galerie.jpg" />
             <img id="lastimg" src="pictures/8galerie.jpg" />
-          </div>
-          <div class="see">
-            <a href="#">voir plus</a>
-          </div>
+          </div> -->
+          <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2" checked>
+            <input type="radio" name="slider" id="slide3" checked>
+            <input type="radio" name="slider" id="slide4" checked>
+            <div id="slides">
+                <div id="overflow">
+                    <div class="inner">
+                        <div class="slide slide_1">
+                            <div class="slide-content">
+                                <img src="pictures/4galerie.jpg">
+                            </div>
+                        </div>
+                        <div class="slide slide_2">
+                            <div class="slide-content">
+                              <img src="pictures/3galerie.jpg">
+                            </div>
+                        </div>
+                        <div class="slide slide_3">
+                            <div class="slide-content">
+                                <img src="pictures/2galerie.jpg">
+                            </div>
+                        </div>
+                        <div class="slide slide_4">
+                            <div class="slide-content">
+                                <img src="pictures/1galerie.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+            </div>
+            <div id="bullets">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+            </div>  
+        </div>
         </div>
       </div>
     </main>
