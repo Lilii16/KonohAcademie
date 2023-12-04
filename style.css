@@ -1,0 +1,718 @@
+@font-face {
+    font-family: 'Ninja Naruto';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Ninja Naruto'), url('njnaruto.woff') format('woff');
+    }
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    width: 100%;
+    background: rgba(250,235,215,0.30);
+    font-family: 'Ninja Naruto';
+    letter-spacing: 3px;
+}
+
+h2 {
+    color: #1E1E1E;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E1E;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+.navigation {
+    margin: auto;
+    width: 70%;
+    height: 20px;
+    padding: 30px;
+    margin: 15px;
+}
+
+.liens {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.liens a { 
+    color: white;
+    text-decoration: none;
+}
+
+.banniere {
+    background: no-repeat center url(pictures/bannière.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 45vh;
+    position: relative;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+
+.citation {
+    width: 40%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    
+    background-color: bisque;
+    color: orangered;
+    opacity: 0.70;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.citation p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    font-size: smaller;
+}
+    
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.main-cards {
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#titre1 {
+    width: 90%;
+    height: 60px;
+    text-align: center;
+    padding: 15px;
+    background: rgba(215, 108, 9, 0.76);
+    border-radius: 25px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    color: orangered;
+    letter-spacing: 1em;
+    font-weight: 100;
+}
+
+.card {
+    width: 25%;
+    height: 60vh;
+    background-color: #1E1E1E;
+    border-radius: 25px;
+    text-align: center;
+}
+
+
+.papa, .p {
+    padding: 10%;
+}
+
+.p {
+    margin-bottom: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    line-height: 20px;
+    color: rgba(250,235,215,1);
+}
+
+.title2{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pictures{
+    
+    width: 90%;
+    height: 600px;
+    background: rgba(215, 108, 9, 0.76);
+    border-radius: 25px;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.linephoto {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 20%;
+    height: 10%;
+    border-radius: 10%;
+    padding: 8px;
+}
+
+#lastimg {
+    width: 20%;
+    height: 15%;
+    border-radius: 10%;
+    padding: 8px;
+} 
+
+.see a{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 80px;
+    text-decoration: none;
+    color: #1E1E1E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #1E1E1E;
+    /* margin-top: 50px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copy {
+    width: 70%;
+    padding: auto;
+}
+
+.copy p, a {
+    color: orangered;
+}
+
+a:hover {
+    color: blue;
+    
+}
+
+/* -- début CONTACT -- */
+
+.contentcont {
+    width: 100%;
+    background: rgba(250,235,215,0.30);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+}
+
+.div1{
+    width: 40%;
+    background-color:rgba(215, 108, 9, 0.76);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+
+.div2{
+    width: 30%;
+    height: 60vh;
+    background-color:rgba(215, 108, 9, 0.76);
+    padding-top: 60px;
+    line-height: 30px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+
+.conth2{
+    font-size: larger;
+    letter-spacing: 0,50em;
+    text-align: center;
+    padding: 15px;
+    line-height: 30px;
+}
+
+.cont, .contactlabel {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1E1E1E;
+    
+}
+
+#msgsquare, #e-mail, #msg, #subject {
+    width: 50vh;
+    height: 13vh;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+#email, #subject {
+    width: 50vh;
+    height: 5vh;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+
+
+.contactbutton {
+   
+    text-align: center;
+    background-color:white;
+    margin-top: 26px;
+    margin-left: 31vh;
+    border: 2px solid #1E1E1E;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:600;
+
+}
+
+
+
+/* début média query ACCUEIL */
+
+@media screen and (max-width: 1200px) {
+
+    .div1 {
+        flex-direction: column; 
+    }
+    .citation{
+        width: 80%;
+    }
+    .navigation {
+       /* ma boite disparait */
+        display: none;
+    }
+    .h4 { letter-spacing: 1em;
+        font-weight: 100;
+    }
+    .main-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 70%;
+        margin: 10%;
+    }
+    p {
+        padding: 5%;
+    }
+
+    .pictures {
+        height: 100%;
+    }
+    .linephoto {
+        display: block;
+    }
+    img {
+        width: 90%;
+        height: 30%;
+        border-radius: 10%;
+        padding: 10px;
+        margin: 5%;
+    }
+    #lastimg {
+        width: 90%;
+        height: 30%;
+        border-radius: 10%;
+        padding: 10px;
+        margin: 5%;
+    }
+    .see {
+        padding-bottom: 5%;
+    }
+
+}
+
+/* @media screen and (max-width: 769px) {
+
+    .div1 {
+        flex-direction: column; 
+    }
+    .citation{
+        width: 80%;
+    }
+    .navigation {
+       ma boite disparait
+        display: none;
+    }
+    h4 { letter-spacing: 1em;
+        font-weight: 100;
+        font-size: 0.75em;
+    }
+    .p {
+        height: 60%;
+        margin-top: 2em;
+        padding: 0.5%;
+        font-size: 0.60em;
+    }
+    .main-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 70%;
+        height: 60vh;
+        margin: 10%;
+    }
+} */
+
+
+@media screen and (max-width: 576px) {
+
+    .div1 {
+        flex-direction: column; 
+    }
+    .citation{
+        width: 80%;
+    }
+    .navigation {
+       /* ma boite disparait */
+        display: none;
+    }
+    h4 { letter-spacing: 1em;
+        font-weight: 100;
+        font-size: 0.75em;
+    }
+    .p {
+        height: 60%;
+        margin-top: 2em;
+        padding: 0.5%;
+        font-size: 0.60em;
+    }
+    .main-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 85%;
+        height: auto;
+        margin: 10%;
+    }
+ }
+
+
+/* début média query CONTACT */
+
+@media screen and (max-width: 1200px) {
+
+    .div1 {
+        flex-direction: column; 
+    }
+    .citation{
+        width: 80%;
+    }
+    .navigation {
+       /* ma boite disparait */
+        display: none;
+    }
+    main {
+        width: 100%;
+    }
+    .contentcont {
+        width: 100%;
+        /* margin: 5%; */
+        padding-top: 5%;
+        display: block;
+    }
+    #contact {
+        width: 100%;
+    }
+    .conth2 {
+        font-family: 'Ninja Naruto';
+        font-size: 15px;
+        width: 100%;
+    }
+    .div1{
+        width: 80%;
+        height: 100vh;
+        background-color:rgba(215, 108, 9, 0.76);
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+        margin: auto;
+        margin-top: 50px;
+    }
+    .div2{
+        width: 80%;
+        height: 65vh;
+        background-color:rgba(215, 108, 9, 0.76);
+        padding-top: 20px;
+        line-height: 30px;
+        border-radius: 10px;
+        box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+        margin: auto;
+    }
+    .cont {
+        font-size: smaller;
+    }
+    .form-example {
+        width: 100%;
+        margin-left: 2px;
+    }
+    .e-mail, .subject, .msgsquare {
+        width: 80%;
+        padding: 10px;
+        margin: 5px;
+    }
+    #email, #subject, #msg {
+        width: 90%;
+        padding-left: 2em;
+    }
+    .sendbutton {
+       width: 70%;
+       padding: 10%;
+       position: relative;
+    }
+    .contactbutton {
+        position: absolute;
+        top: 0px; left: -35px;
+    }
+}
+
+    @media screen and (min-width: 700px) and (max-width: 769px) {
+
+    main {
+        width: 100%;
+    }
+    .div1 {
+        flex-direction: column; 
+    }
+    .citation{
+        width: 80%;
+    }
+    .navigation {
+       /* ma boite disparait */
+        display: none;
+    }
+    .contentcont {
+        width: 100%;
+        margin: 10%;
+        padding-top: 5%;
+        display: block;
+    }
+    #contact {
+        width: 100%;
+    }
+    .conth2 {
+        font-family: 'Ninja Naruto';
+        font-size: 15px;
+        width: 100%;
+    }
+    .div1{
+        width: 80%;
+        height: 100vh;
+        background-color:rgba(215, 108, 9, 0.76);
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+        margin-bottom: 20%;
+        margin-top: 10;
+    }
+    .div2{
+        width: 80%;
+        height: 75vh;
+        background-color:rgba(215, 108, 9, 0.76);
+        padding-top: 20px;
+        line-height: 30px;
+        border-radius: 10px;
+        box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    }
+    .cont {
+        font-size: smaller;
+        padding: 5%;
+    }
+    .form-example {
+        width: 100%;
+        margin-left: 2px;
+    }
+    .e-mail, .subject, .msgsquare {
+        width: 80%;
+        padding: 10px;
+        margin: 5px;
+    }
+    #email, #subject, #msg {
+        width: 20vh;
+        padding-left: 2em;
+    }
+    .sendbutton {
+       width: 70%;
+       padding: 10%;
+       position: relative;
+    }
+    .contactbutton {
+        position: absolute;
+        top: 0px; left: -80px;
+    }
+}  
+
+@media screen and (max-width: 576px) {
+
+    main {
+        width: 100%;
+    }
+    .navigation {
+        /* ma boite disparait */
+         display: none;
+     }
+    .div1 {
+        flex-direction: column; 
+    }
+    .citation{
+        width: 80%;
+    }
+    .navigation {
+       /* ma boite disparait */
+        /* display: none; */
+    }
+    .contentcont {
+        width: 100%;
+        /* margin: 10%; */
+        padding-top: 5%;
+        display: block;
+    }
+    #contact {
+        width: 100%;
+    }
+    .conth2 {
+        font-family: 'Ninja Naruto';
+        font-size: 15px;
+        width: 100%;
+    }
+    .div1{
+        width: 80%;
+        height: auto;
+        background-color:rgba(215, 108, 9, 0.76);
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+        margin-bottom: 20%;
+        margin-top: 10;
+        
+    }
+    .div2{
+        width: 80%;
+        height: 80%;
+        background-color:rgba(215, 108, 9, 0.76);
+        padding-top: 20px;
+        line-height: 30px;
+        border-radius: 10px;
+        box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+        margin-bottom: 10vh;
+       
+    }
+    .cont {
+        font-size: smaller;
+        padding: 10%;
+    }
+    .form-example {
+        width: 100%;
+        margin-left: 2px;
+    }
+    .e-mail, .subject, .msgsquare {
+        width: 80%;
+        padding: 10px;
+        margin: 5px;
+    }
+    #email, #subject, #msg {
+        width: 18em;
+        padding-left: 2em;
+    }
+    .sendbutton {
+       width: 70%;
+       padding: 10%;
+       position: relative;
+    }
+    .contactbutton {
+        position: absolute;
+        top: -35px; left: -100px;
+    }
+}
+/* style MENU BURGUER */
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: orangered;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* début média query MENU BURGUER */
+
+@media screen and (max-width: 1200px) {
+
+    .navbar {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .burger-menu {
+        display: block;
+        padding: 5%;
+    }
+
+    .navigation {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .navigation.active {
+        display: block;
+    }
+
+    .liens {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .liens li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .liens li a {
+        display: block;
+        padding: 10px;
+        font-family: 'Ninja Naruto';
+        color: orangered;
+    }
+}   /* fin mq MENU BURGUER */
